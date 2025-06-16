@@ -27,7 +27,7 @@ READ_MESSAGE: process.env.READ_MESSAGE || "false",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 ANTI_VV: process.env.ANTI_VV || "true",
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
-ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same",  // inbox | same
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
 WELCOME: process.env.WELCOME || "true",
 GOODBYE: process.env.GOODBYE || "true",
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
