@@ -8,8 +8,12 @@
     "stop": "pm2 stop lara",
     "restart": "pm2 restart lara"
   },
+  "engines": {
+    "node": ">=22.16.0",
+    "npm": ">=11.4.1"
+  },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:sadiya-tech-baileys@latest",
+    "@whiskeysockets/baileys": "github:gatanina-li/baileys",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@xaviabot/fb-downloader":"1.0.14",
